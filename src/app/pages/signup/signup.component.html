@@ -1,0 +1,45 @@
+<app-default-login-layout
+    title="Sign in and begin your journey!"
+    primaryBttnText="Signup Now"
+    secondaryBttnText="Login Now"
+    (submit)="submit()"
+    (navigate)="navigate()"
+    [disablePrimaryBttn]="signupForm.invalid"
+>
+    <form [formGroup]="signupForm">
+        <app-primary-input
+            formControlName="name"
+            inputName="name"
+            type="text"
+            label="Your name"
+            placeholder="Joao Pedro"
+        >
+            <img src="/assets/svg/email-icon.svg"/>
+        </app-primary-input>
+        <app-primary-input
+            formControlName="email"
+            inputName="email"
+            type="email"
+            label="Email"
+            placeholder="garcia.jops@gmail.com"
+        >
+            <img src="/assets/svg/email-icon.svg"/>
+        </app-primary-input>
+        <app-primary-input
+            formControlName="password"
+            inputName="password"
+            type="password"
+            label="Your Password"
+        >
+        <img src="/assets/svg/password-icon.svg"/>
+    </app-primary-input>
+    <app-primary-input
+        formControlName="passwordConfirm"
+        inputName="passwordConfirm"
+        type="password"
+        label="Confirm your Password"
+    >
+        <img src="/assets/svg/password-icon.svg"/>
+    </app-primary-input>
+    </form>
+</app-default-login-layout>

@@ -51,10 +51,10 @@ login-page-master/
    Abra [http://localhost:4200/login](http://localhost:4200/login) no navegador.
 
    
-### Backend
+## Backend
 - [https://github.com/Jops-Garcia/login-auth-api](https://github.com/Jops-Garcia/login-auth-api)
 
-### Prints
+## Prints
 ![image](https://github.com/user-attachments/assets/6920747d-14e9-4a41-95b3-b66db9869a3e)
 ![image](https://github.com/user-attachments/assets/206636bc-d6a9-412a-9f7a-994227b9500e)
 ![image](https://github.com/user-attachments/assets/34c7f433-6872-4db4-8bce-1a86f78f23ce)

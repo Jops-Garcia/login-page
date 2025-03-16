@@ -1,59 +1,65 @@
-# LoginPage
+# Página de Login usando Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+## Descrição do Projeto
+Este é um projeto de exemplo para uma página de login desenvolvida com Angular. São utilizados componentes reutilizáveis que podem ser facilmente integrados a outras aplicações. O projeto inclui funcionalidades de login e cadastro, junto com serviços configurados para futuras integrações com APIs.
 
-## Development server
+## Tecnologias Utilizadas
+- **Angular**
+- **TypeScript**
+- **SCSS**
 
-To start a local development server, run:
+## Estrutura do Projeto
+A estrutura principal do projeto está organizada da seguinte forma:
 
-```bash
-ng serve
+```
+login-page-master/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── default-login-layout/  # Layout padrão para páginas de login
+│   │   │   ├── primary-input/         # Componente de campo de entrada reutilizável
+│   │   ├── pages/
+│   │   │   ├── login/                 # Página de login
+│   │   │   ├── signup/                # Página de cadastro
+│   │   ├── services/
+│   │   │   ├── login.service.ts       # Serviço para autenticação
+│   │   ├── types/                     # Tipos de dados reutilizáveis
+│   ├── assets/
+│   │   ├── svg/                       # Recursos visuais
+│   ├── styles/                        # Estilos globais e variáveis
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Destaques
+- **Componentização**: Componentes modulares e reutilizáveis.
+- **Estilização centralizada**: Uso de variáveis SCSS para cores, espaçamentos, etc.
 
-## Code scaffolding
+## Configuração e Execução
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Requisitos
+- Node.js e npm instalados.
 
-```bash
-ng generate component component-name
-```
+### Passos para Executar o Projeto
+1. **Instalar dependências**:
+   ```bash
+   npm install
+   ```
+2. **Iniciar o servidor de desenvolvimento**:
+   ```bash
+   ng serve
+   ```
+3. **Acessar a aplicação**:
+   Abra [http://localhost:4200/login](http://localhost:4200/login) no navegador.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+   
+### Backend
+- **TODO**
 
-```bash
-ng generate --help
-```
+### Prints
+![image](https://github.com/user-attachments/assets/6920747d-14e9-4a41-95b3-b66db9869a3e)
+![image](https://github.com/user-attachments/assets/206636bc-d6a9-412a-9f7a-994227b9500e)
+![image](https://github.com/user-attachments/assets/34c7f433-6872-4db4-8bce-1a86f78f23ce)
 
-## Building
 
-To build the project run:
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Obrigado por conferir este projeto!
